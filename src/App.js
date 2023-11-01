@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <Dictionary/>
+      <Dictionary />
       <footer>
         This project was coded by Ebba Emanuelsson and is{" "}
         <a
           className="App-link"
-          href=" "
+          href="https://github.com/EbbaEmanuelsson/Dictionary-app"
           target="_blank"
           rel="noopener noreferrer"
         >
