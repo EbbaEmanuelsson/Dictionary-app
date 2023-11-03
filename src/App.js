@@ -4,7 +4,10 @@ import Dictionary from './Dictionary';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Dictionary</header>
+      <header className="App-header">
+        <h1>Dictionary</h1>
+        <em>What word do you want to look up?</em>
+      </header>
       <Dictionary />
       <footer>
         This project was coded by Ebba Emanuelsson and is{" "}
