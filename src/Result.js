@@ -1,12 +1,7 @@
 import React from "react";
 import "./Result.css";
-import Synonyms from "./Synonyms";
-
-
 
 export default function Result(props){
-    
-    console.log(props)
     if (props.result){
     return (
       <div className="Result">
@@ -44,6 +39,5 @@ export default function Result(props){
     );
     } else {
         return null;
-    }
-    
+    }    
 }

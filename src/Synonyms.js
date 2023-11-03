@@ -1,6 +1,4 @@
 import React from "react";
-import Result from "./Result";
-
 
 export default function Synonyms(props){
     return (
