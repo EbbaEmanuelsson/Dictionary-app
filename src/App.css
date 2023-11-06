@@ -1,14 +1,14 @@
 body{
-    background-color: rgba(240, 153, 125, 0.6);
+    background-color: rgba(240, 153, 125, 0.3);
 }
 
 .App {
     max-width: 700px;
     margin: 60px auto;
     border: 1px solid;
-    border-color: #F0997D;
+    border-color: rgba(240, 153, 125, 0.1);
     border-radius: 20px;
-    background-color: #F0997D;
+    background-color: rgba(240, 153, 125, 0.1);
 }
 
 header,

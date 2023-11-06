@@ -1,8 +1,7 @@
 .section{
-    
     border: 1px solid;
-    border-color: #FFC3A1;
-    background-color: #FFC3A1;
+    border-color: rgba(252, 195, 166, 0.4);
+    background-color: rgba(252, 195, 166, 0.4);
     border-radius: 20px;
     margin: 4px 20px;
     padding: 20px;
