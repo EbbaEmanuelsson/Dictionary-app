@@ -2,9 +2,10 @@
     border: 1px solid;
     border-color: rgba(252, 195, 166, 0.4);
     background-color: rgba(252, 195, 166, 0.4);
-    border-radius: 20px;
+    border-radius: 6px;
     margin: 4px 20px;
     padding: 20px;
+    box-shadow: 5px 5px 12px;
 }
 
 .section h2{

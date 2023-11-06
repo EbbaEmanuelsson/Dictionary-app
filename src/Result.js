@@ -15,9 +15,7 @@ export default function Result(props){
           <div className="col-6">
             <div className="section">
               <h2>{props.result.meanings[0].partOfSpeech}</h2>
-              <p>
-                {props.result.meanings[0].definition}
-              </p>
+              <p>{props.result.meanings[0].definition}</p>
             </div>
           </div>
         </div>
