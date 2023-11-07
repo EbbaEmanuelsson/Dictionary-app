@@ -1,5 +1,6 @@
 import React from "react";
 import "./Result.css";
+import Synonyms from "./Synonyms";
 
 export default function Result(props){
     if (props.result){
@@ -28,8 +29,7 @@ export default function Result(props){
           </div>
           <div className="col-6">
             <div className="section">
-              <h2>Synonyms</h2>
-              <p>{props.result.meanings[0].synonyms}</p>
+              <Synonyms synonyms={props.result.meanings[0].synonyms}/>
             </div>
           </div>
         </div>
